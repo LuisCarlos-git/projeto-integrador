@@ -1,0 +1,122 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	outline: 0;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+section#home {
+	height: 100vh;
+	background: url('images/formoso.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.inicio h1 {
+	font-size: 102px;
+	color: white;
+	text-align: right;
+}
+
+.button-container {
+	display: flex;
+
+}
+
+.button-container-end {
+	justify-content: flex-end;
+}
+
+.button-container-center {
+	justify-content: center;
+}
+
+.button-container a {
+	display: flex;
+	justify-content: center;
+	padding: 12px;
+	border-radius: 8px;
+	text-decoration: none;
+	color: #b89e76;
+	width: 200px;
+	background-color: white;
+}
+
+
+.button-container a:hover {
+	opacity: 0.8;
+}
+
+.button-container .button-green {
+	background: #4e8a69;
+	color: white;
+}
+
+section#informativos {
+	height: 100vh;
+	background-color: white;
+	max-width: 1280px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.txt {
+	margin-bottom: 30px;
+}
+
+.txt h1 {
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	font-size: 40px;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+}
+
+.card {
+	display: flex;
+	background-color: #eee;
+	border-radius: 8px;
+	overflow: hidden;
+	width: 500px;
+	gap: 10px
+}
+
+.card .conteudo {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 12px;
+	gap: 10px;
+}
+
+.card img {
+	width: 250px;
+}
+
+.card .nome-local {
+	font-size: 20px;
+	margin-top: 8px;
+
+}
+
+
+.detalhe {
+	font-size: 14px;
+	color: black;
+	font-weight: normal;
+}
+
+
