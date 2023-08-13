@@ -9,12 +9,14 @@ body {
 	font-family: 'Poppins', sans-serif;
 }
 
-section#home {
-	height: 100vh;
+.background-image {
 	background: url('images/formoso.png');
 	background-repeat: no-repeat;
 	background-size: cover;
+}
 
+section#home {
+	height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -119,4 +121,56 @@ section#informativos {
 	font-weight: normal;
 }
 
+.all {
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	height: 100vh;
 
+}
+
+.all .card-detail {
+	width: 300px;
+	background-color: white;
+	margin: 20px;
+	border: 1px solid black;
+	border-radius: 20px;
+	overflow: hidden;
+	transition: 0.5s;
+	text-align: center;
+}
+
+.all .card-detail img{
+	height: 300px;
+	width: 100%;
+	transition: 0.5s;
+}
+
+.all .card-detail h1{
+	font-size: 32px;
+}
+
+.all .card-detail .content {
+	padding: 20px;
+	text-align: center;
+
+}
+
+.all .card-detail .content p{
+	color: #666;
+	transition: 0.5s;
+}
+
+.all .card-detail:hover{
+	background-color: #b89e76 ;
+	color: white;
+	margin-top: -30px;
+	box-shadow: 2px 20px 25px #ddd;
+	border-color: #b89e76;
+}
+
+.all .card-detail:hover .content p{
+	color: white;
+}
